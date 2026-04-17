@@ -28,7 +28,7 @@ class _ChatScreenState extends State<ChatScreen> {
   int questionCount = 0;
   int maxLimit = 90;
 
-  final String apiKey = "AIzaSyAahp20NEYNaeVJFl6LFw2NuEGChSjWikQ"; // 👈 apni key daal
+  final String apiKey = "YOUR_API_KEY"; // 👈 apni key daal
 
   Future<String> getAIResponse(String message) async {
     final url = Uri.parse(
